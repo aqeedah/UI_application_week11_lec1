@@ -72,14 +72,14 @@ namespace UI_application_week11_lec1
             }
             if ((bool)_3.IsChecked)
             {
-                course += _3.Content + ",";
+                course += _3.Content;
             }
 
-            string Result = $"First Name: {fname.Text} /n Last Name: {lname.Text} \n Age: {age.Text} \n Gender: {gender} \n Courses enrolled: {courses}";
+            string Result = $"First Name: {fname.Text} \n Last Name: {lname.Text} \n Age: {age.Text} \n Gender: {gender} \n Courses enrolled: {course}";
             MessageBox.Show(Result);
-        
 
-            /*string path = @"C:\Users\namiq\Desktop\test\sec2.txt";
+
+            string path = @"C:\Users\aqeed\OneDrive - Conestoga College\Desktop\Assignments\High quality software programming - Namiq\week11.txt";
 
             if (!File.Exists(path))
             {
@@ -105,7 +105,7 @@ namespace UI_application_week11_lec1
                 {
                    Console.WriteLine(s);
                 }
-            }*/
+            }
         }
     }
 }

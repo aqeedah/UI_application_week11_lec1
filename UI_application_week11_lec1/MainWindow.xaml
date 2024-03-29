@@ -27,14 +27,14 @@
         <Label Content="Age" HorizontalAlignment="Left" Margin="91,198,0,0" VerticalAlignment="Top" Width="128" FontSize="16" FontWeight="Bold"/>
         <Label Content="Enter Password" HorizontalAlignment="Left" Margin="91,287,0,0" VerticalAlignment="Top" Width="188" FontSize="16" FontWeight="Bold"/>
         <Label Content="Confirm Password" HorizontalAlignment="Left" Margin="91,380,0,0" VerticalAlignment="Top" Width="188" FontSize="16" FontWeight="Bold"/>
-        <RadioButton x:Name="male" Content="Male" HorizontalAlignment="Left" Margin="412,79,0,0" VerticalAlignment="Top" IsChecked="False" FontSize="16"/>
-        <RadioButton x:Name="female" Content="Female" HorizontalAlignment="Left" Margin="526,79,0,0" VerticalAlignment="Top" FontSize="16"/>
-        <RadioButton x:Name="pnts" Content="Prefer not to say" HorizontalAlignment="Left" Margin="642,79,0,0" VerticalAlignment="Top" FontSize="16"/>
-        <Label Content="Gender" HorizontalAlignment="Left" Margin="412,36,0,0" VerticalAlignment="Top" Width="106" FontSize="16" FontWeight="Bold"/>
-        <Label x:Name="courses" Content="Courses Enrolled" HorizontalAlignment="Left" Margin="412,143,0,0" VerticalAlignment="Top" Width="172" FontSize="16" FontWeight="Bold"/>
-        <CheckBox x:Name="_1" Content="PROG8051" HorizontalAlignment="Left" Margin="412,229,0,0" VerticalAlignment="Top" FontSize="16"/>
-        <CheckBox x:Name="_2" Content="PROG8051" HorizontalAlignment="Left" Margin="526,231,0,0" VerticalAlignment="Top" FontSize="16"/>
-        <CheckBox x:Name="_3" Content="PROG8051" HorizontalAlignment="Left" Margin="642,233,0,0" VerticalAlignment="Top" FontSize="16"/>
+        <RadioButton x:Name="male" Content="Male" HorizontalAlignment="Left" Margin="343,81,0,0" VerticalAlignment="Top" IsChecked="False" FontSize="16" Height="47" Width="63"/>
+        <RadioButton x:Name="female" Content="Female" HorizontalAlignment="Left" Margin="476,81,0,0" VerticalAlignment="Top" FontSize="16" Height="47" Width="81"/>
+        <RadioButton x:Name="pnts" Content="Prefer not to say" HorizontalAlignment="Left" Margin="611,81,0,0" VerticalAlignment="Top" FontSize="16" Height="47" Width="158"/>
+        <Label Content="Gender" HorizontalAlignment="Left" Margin="498,31,0,0" VerticalAlignment="Top" Width="106" FontSize="16" FontWeight="Bold"/>
+        <Label x:Name="courses" Content="Courses Enrolled" HorizontalAlignment="Left" Margin="456,162,0,0" VerticalAlignment="Top" Width="172" FontSize="16" FontWeight="Bold"/>
+        <CheckBox x:Name="_1" Content="PROG8051" HorizontalAlignment="Left" Margin="345,228,0,0" VerticalAlignment="Top" FontSize="16" Height="28" Width="119"/>
+        <CheckBox x:Name="_2" Content="STAT3000" HorizontalAlignment="Left" Margin="487,232,0,0" VerticalAlignment="Top" FontSize="16" Height="28" Width="110"/>
+        <CheckBox x:Name="_3" Content="PROG1347" HorizontalAlignment="Left" Margin="632,234,0,0" VerticalAlignment="Top" FontSize="16" Height="28" Width="119"/>
         <Button x:Name="submit" Content="SUBMIT" HorizontalAlignment="Left" Margin="513,295,0,0" VerticalAlignment="Top" Width="82" Height="33" Click="Submit" FontSize="16" FontWeight="Bold" FontStyle="Italic" Foreground="#FFF6EFEF">
             <Button.Background>
                 <RadialGradientBrush>
